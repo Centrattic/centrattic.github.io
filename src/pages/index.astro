@@ -1,0 +1,272 @@
+---
+const title = "Riya Tyagi";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Riya Tyagi - AI safety researcher at MATS, MIT student" />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <img src="/riya.png" alt="Riya Tyagi" class="photo" />
+
+      <h1>Welcome! I'm Riya. </h1>
+
+      <p>
+        I'm currently in my second year at MIT, and taking a gap semester 
+        to work on AI safety at <a href="https://www.matsprogram.org/">MATS</a>. 
+        I think a lot about how AI models work, and do research.
+      </p>
+
+      <p>
+        I like folding origami, singing, and improving my 
+        <a href="https://www.gnu.org/software/emacs/">emacs</a> config.
+      </p>
+
+      <nav class="social-links">
+
+        <a href="https://github.com/Centrattic" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?user=395HnMoAAAAJ&hl=en" aria-label="Google Scholar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5 12 0z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/riyatyagi-ai/" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:riyaty@mit.edu" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+      </nav>
+
+      <h2>Projects & papers</h2>
+
+      <article class="project">
+        <h3>global cot analysis</h3>
+        <p>
+          tools to aggregate and analyze many chain-of-thought trajectories into structured graphs. 
+          helps understand reasoning dynamics like cycles, strategy switching, and how intermediate 
+          states relate to final answers.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/Centrattic/global-cot-analysis">github</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>training reliable activation probes with few examples</h3>
+        <p>
+          work from my time at LISA with stefan heimersheim. we studied how to detect deceptive 
+          internal states using probes when you only have 2-5 misaligned examples vs thousands 
+          of aligned ones. turns out leveraging the abundant negative examples works surprisingly well.
+        </p>
+        <div class="project-links">
+          <a href="https://openreview.net/pdf?id=punokGGd4V">paper</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>harmonic loss trains interpretable AI models</h3>
+        <p>
+          collaboration with the tegmark lab on a new loss function that replaces cross-entropy 
+          with euclidean distance. makes models more interpretable and reduces grokking.
+        </p>
+        <div class="project-links">
+          <a href="https://arxiv.org/abs/2502.01628">paper</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>disentangling race features from retinal images</h3>
+        <p>
+          research at harvard med uncovering what features let AI infer self-reported race from 
+          medical images. did 50+ ablation studies with CNNs and CycleGANs to figure out what's 
+          actually going on. manuscript heading to nature journals.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>deep learning for neonatal cardiopulmonary disease</h3>
+        <p>
+          trained models to predict lung and heart disease from retinal images of premature infants. 
+          published in JAMA ophthalmology.
+        </p>
+        <div class="project-links">
+          <a href="https://www.medrxiv.org/content/10.1101/2025.09.18.25336004v1.full">paper</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>early parkinson's diagnosis from handwriting</h3>
+        <p>
+          built ML models to detect parkinson's by analyzing handwriting for micrographia. 
+          got featured by NVIDIA which was pretty cool.
+        </p>
+        <div class="project-links">
+          <a href="https://arxiv.org/abs/2111.14781">paper</a>
+          <a href="https://blogs.nvidia.com/blog/handwriting-recognition-ai-parkinsons-disease/">nvidia feature</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>synthetic lung CT generation</h3>
+        <p>
+          summer research at stony brook using GANs and stable diffusion to generate synthetic 
+          lung CT scans for cancer diagnosis. grew the training dataset 10x.
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>land cover classification with citizen science</h3>
+        <p>
+          NASA SEES internship combining ML with citizen science data to automatically classify 
+          landcover features. presented at AGU.
+        </p>
+        <div class="project-links">
+          <a href="https://ui.adsabs.harvard.edu/abs/2023AGUFMED01...03T/abstract">paper</a>
+        </div>
+      </article>
+
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    background: #0c0c0c;
+    color: #d4d4d4;
+    min-height: 100vh;
+    padding: 4rem 1.5rem;
+    line-height: 1.75;
+  }
+
+  main {
+    max-width: 540px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .photo {
+    width: 200px;
+    height: 275px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    border: 2px solid #2a2a2a;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    color: #f0f0f0;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+  }
+
+  a {
+    color: #e8a84c;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  a:hover {
+    color: #f5c77e;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .social-links a {
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.15s ease;
+  }
+
+  .social-links a:hover {
+    color: #e8a84c;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #888;
+    letter-spacing: 0.03em;
+  }
+
+  .project {
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid #1f1f1f;
+  }
+
+  .project:last-child {
+    border-bottom: none;
+  }
+
+  .project h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.35rem;
+    color: #f0f0f0;
+  }
+
+  .project p {
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+    line-height: 1.65;
+  }
+
+  .project-links {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .project-links a {
+    color: #e8a84c;
+  }
+
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+</style>
